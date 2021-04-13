@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+aside {
+    height: 61px;
+    font-size: 48px;
+    background: #1CD1B0;
+    text-indent: 3%;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 162px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    line-height: 162px;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    font-size: 82px;
+    text-indent: 3%;
+}
+
+.all-cards {
+    margin-top: 47px;
+    margin-bottom: 338px;
+}
+
+.individual-card {
+    width: 805px;
+    height: 1364.5px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px auto 200px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.card-header {
+    position: relative;
+    bottom: 60px;
+}
+
+.card-body {
+    position: relative;
+    bottom: 260px;
+}
+
+.back-card-img {
+    height: 492.5px;
+    border-top-left-radius: 67px;
+    border-top-right-radius: 67px;
+    background-size: 180%;
+    background-position: bottom -240px left -475px;
+}
+
+.img-back-batman {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.img-back-wonderwoman {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.img-back-superman {
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.fa-heart {
+    color: #CC2424;
+    font-size: 60px;
+    position: relative;
+    top: 118px;
+    left: 60px;
+}
+
+.superhero-img {
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 176px;
+}
+
+.img-batman {
+    background-image: url(../img/batman.jpg);
+    background-size: 290%;
+    background-position: bottom -158px left -380px;
+}
+
+.img-wonderwoman {
+    background-image: url(../img/wonderw.jpg);
+    background-size: 202%;
+    background-position: top 1px right -180px;
+}
+
+.img-superman {
+    background-image: url(../img/superman.jpg);
+    background-size: 240%;
+    background-position: top -105px right -270px;
+}
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+p {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px 43px;
+}
+
+.ver-mas-btn {
+    width: 346px;
+    height: 114px;
+    background: #00669F;
+    border-radius: 7px;
+    margin: 32px auto 0px auto;
+    text-align: center;
+    line-height: 114px;
+}
+
+.ver-mas-link {
+    color: #F3F3F3;
+    text-decoration-line: none;
+    font-size: 36px;
+
+}
+
+.plus-btn-container {
+    width: 160px;
+    height: 2800px;
+    position: absolute;
+    top: 1634px;
+    right: 106px;
+}
+
+.plus-btn {
+    background-color: #00669F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 96px;
+    position: sticky;
+    top: 25px;
+}
+
+footer {
+    position: relative;
+    height: 162px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF9F9;
+    font-size: 36px;;
+    text-align: center;
+    line-height: 162px;
+}
+
+.github-image {
+    position: absolute;
+    right: 3.79%;
+    bottom: 29.21%;
+    background-image: url(../img/github.png);
+    width: 248.11px;
+    height: 67.36px;
+}
