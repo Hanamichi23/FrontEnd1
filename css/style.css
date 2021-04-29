@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=New+Tegomin&display=swap');
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 60px;
+    color: aqua;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: 90px;
+}
+
+.fas {
+    font-size: 30px;
+    color: coral;
+}
+
+ul li ul li:first-child {
+    margin-top: 38px;
+}
+
+.tps-item {
+    margin-bottom: 56px;
+}
+
+.tps-item-text {
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+    color: #F0BA50;
+}
+
+.far {
+    font-size: 20px;
+    color: coral;
+}
+
+.pagina-item {
+    margin-bottom: 23px;
+    height: 23px;
+}
+
+.pagina-item-link {
+    position: relative;
+    left: 18px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6D492;
+    text-decoration: none;
+}
+
+.pagina-item-link:hover {
+    font-size: 23px;
+    text-decoration: underline;
+}
