@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+aside {
+    height: 23px;
+    font-size: 15px;
+    background: #1CD1B0;
+    text-indent: 20px;
+    margin: 0px;
+    line-height: 23px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 80px;
+}
+
+.header-element {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.logo-img {
+    background-image: url(../img/logo_1.png);
+    width: 99px;
+    height: 74px;
+    position: relative;
+    left: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu-nav {
+    height: 40px;
+    line-height: 40px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-list {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-list a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main {
+    height: 911px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.form-section {
+    background-color: #00669F;
+    width: 954px;
+    height: 832px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -416px 0 0 -477px;  /*  lo corro la mitad de la altura y del ancho para centrarlo   */
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+}
+
+.form-titulo {
+    color: white;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.añadi-titulo {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 16px 0px;
+}
+
+.añadi-subtitulo {
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.columna-form {
+    display: inline-block;
+    width: 346px;
+    margin: 0px;
+    margin-bottom: 36px;
+}
+
+.columna1 {
+    margin-left: 123px;
+}
+
+.columna2 {
+    margin-left: 23px;
+}
+
+.label-campo {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    display: block;
+}
+
+.label-nombre, .label-especie {
+    margin-bottom: 15px;
+}
+
+.label-fecha {
+    margin-bottom: 20px;
+}
+
+.input-text {
+    width: 343px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+}
+
+.input-one-line {
+    height: 63px;
+}
+
+.input-text-area {
+    height: 307px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 20px 13px 33px 10px;
+}
+
+.input-nombre, .input-especie {
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.input-fecha {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 30px;
+    padding-left: 17px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 21px;
+    height: 21px;
+    padding-right: 25px;
+    margin-right: 0px;
+}
+
+::placeholder {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.label-foto {
+    margin-bottom: 40px;
+}
+
+.file-btn {
+    width: 342px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 48px;
+}
+
+.label-poderes, .label-tipo {
+    margin-bottom: 12px;
+}
+
+.checkbox-and-radio-input-and-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+input[type=checkbox], input[type=radio] {
+    transform: scale(1.75);
+}
+
+.checkbox-label {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.linea-separadora {
+    display: block;
+    width: 343px;
+    height: 0px;
+    border: 1px solid #CCCCCC;
+    margin-top: 33px;
+    margin-bottom: 21px;
+}
+
+.radio-label {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.checkbox-and-radio-last-input-and-label {
+    margin-bottom: 0;
+}
+
+.añadir-btn {
+    width: 466px;
+    height: 87px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #1CD1B0;
+    color: #000000;
+    border: none;
+    border-radius: 23.011px;
+    display: block;
+    margin: auto;
+}
+
+/* Pesudo stuff */
+
+.required::before {
+    content: "*";
+}
+
+.añadir-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    position: relative;
+    height: 61px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF9F9;
+    font-size: 16px;;
+    text-align: center;
+    line-height: 61px;
+}

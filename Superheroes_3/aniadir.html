@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhéroes 2 - Añadir</title>
+    <link rel="stylesheet" href="css/styleAniadir.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <div class="header-element logo-img"></div>
+        <h1 class="header-element">Nombre Tienda</h1>
+    </header>
+    <nav class="menu-nav">
+        <ul class="menu-list">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Registrarme</a></li>
+            <li><a href="#">Ingresar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="form-section">
+            <h1 class="form-titulo añadi-titulo">Añadí tu super!</h1>
+            <h2 class="form-titulo añadi-subtitulo">Agregá tu personaje favorito completando las opciones.</h2>
+            <form action="home.html" method="GET">
+                <div class="columna-form columna1">
+                    <label for="nombre" class="label-campo label-nombre required">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required class="input-text input-one-line input-nombre">
+                    <label for="fecha" class="label-campo label-fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha" value="dd/mm/aaaa" class="input-text input-one-line input-fecha">
+                    <textarea name="descripcion" placeholder="Descripción" class="input-text input-text-area"></textarea>
+                </div>
+                <div class="columna-form columna2">
+                <label for="especie" class="label-campo label-especie required">Especie</label>
+                <select name="especie" id="especie" required class="input-text input-one-line input-especie">
+                    <option value="" hidden selected>Especie</option>
+                    <option value="aereo">Aéreo</option>
+                    <option value="acuatico">Acuático</option>
+                    <option value="bestia">Bestia</option>
+                    <option value="mago">Mago</option>
+                    <option value="mecha">Mecha/Robot</option>
+                    <option value="fantasma">Fantasma</option>
+                </select>
+                <label for="foto" class="label-campo label-foto">Agregar Foto</label>
+                <input type="file" name="foto" id="foto" value="Seleccionar archivo" accept="image/png, image/jpeg" class="file-btn">
+                <label class="label-campo label-poderes">Poderes</label>
+                <div class="checkbox-and-radio-input-and-label"><input type="checkbox" name="poderes" id="volar" value="volar"><label for="volar" class="checkbox-label">Volar</label></div>
+                <div class="checkbox-and-radio-input-and-label"><input type="checkbox" name="poderes" id="superinteligencia" value="superinteligencia"><label for="superinteligencia" class="checkbox-label">Superinteligencia</label></div>
+                <div class="checkbox-and-radio-input-and-label"><input type="checkbox" name="poderes" id="vista-rayo-laser" value="vista-rayo-laser"><label for="vista-rayo-laser" class="checkbox-label">Vista de rayo láser</label></div>
+                <div class="checkbox-and-radio-input-and-label"><input type="checkbox" name="poderes" id="billetera-gorda" value="billetera-gorda"><label for="billetera-gorda" class="checkbox-label">Billetera gorda</label></div>
+                <div class="linea-separadora"></div>
+                <label class="label-campo label-tipo">Tipo de personaje</label>
+                <div class="checkbox-and-radio-input-and-label"><input type="radio" name="tipo" id="heroe" value="heroe"><label for="heroe" class="radio-label">Héroe / Heroína</label></div>
+                <div class="checkbox-and-radio-last-input-and-label"><input type="radio" name="tipo" id="heroina" value="villano"><label for="heroina" class="radio-label">Villano / Villana</label></div>
+                </div>
+                <input type="submit" value="Añadir" class="añadir-btn">
+            </form>
+        </section>
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>

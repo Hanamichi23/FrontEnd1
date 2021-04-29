@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+aside {
+    height: 23px;
+    font-size: 15px;
+    background: #1CD1B0;
+    text-indent: 20px;
+    margin: 0px;
+    line-height: 23px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 80px;
+}
+
+.header-element {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.logo-img {
+    background-image: url(../img/logo_1.png);
+    width: 99px;
+    height: 74px;
+    position: relative;
+    left: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu-nav {
+    height: 40px;
+    line-height: 40px;
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu-list {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li {
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-list a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.all-cards {
+    width: 1089px;
+    margin: 176px auto 208px;
+}
+
+.individual-card {
+    width: 300px;
+    height: 529px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    display: inline-block;
+}
+
+.card-header {
+    position: relative;
+    bottom: 26.25px;
+}
+
+.card-body {
+    position: relative;
+    bottom: 95px;
+}
+
+.back-card-img {
+    height: 193px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-size: cover;
+}
+
+.img-back-batman {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.img-back-harley {
+    background-image: url(../img/bg-harley.jpg);
+}
+
+.fa-heart {
+    color: #CC2424;
+    font-size: 26.25px;
+    position: relative;
+    top: 47px;
+    left: 24px;
+}
+
+.superhero-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.img-batman {
+    background-image: url(../img/batman.jpg);
+    background-size: 244%;
+    background-position: bottom -25px left -105px;
+}
+
+.img-harley {
+    background-image: url(../img/harley.png);
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 16px;
+}
+
+.ver-mas-btn {
+    width: 128.78px;
+    height: 48.52px;
+    background: #00669F;
+    margin: 37px auto 0px auto;
+    text-align: center;
+    line-height: 48.52px;
+}
+
+.ver-mas-link {
+    color: #F3F3F3;
+    text-decoration-line: none;
+    font-size: 15px;
+
+}
+
+.plus-btn {
+    display: inline-block;
+    background-color: #00669F;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    line-height: 82px;
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    position: relative;
+    bottom: 398px;
+    left: 1089px;
+    margin-left: 19px;
+}
+
+.plus-link {
+    color: #F3F3F3;
+    text-decoration-line: none;
+}
+
+.plus-btn:hover {
+    background-color: black;
+}
+
+footer {
+    position: relative;
+    height: 61px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF9F9;
+    font-size: 16px;;
+    text-align: center;
+    line-height: 61px;
+}
